@@ -22,5 +22,6 @@ executable mini-servant
         ScopedTypeVariables
         InstanceSigs
     build-depends:    base ^>=4.17.2.0
+                    , time
     hs-source-dirs:   src
     default-language: Haskell2010
