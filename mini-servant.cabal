@@ -1,0 +1,26 @@
+cabal-version:      3.0
+name:               mini-servant
+version:            0.1.0.0
+synopsis:           Mini Servant Implementation
+homepage:           https://github.com/isaac025/mini-servant
+author:             Isaac Lopez
+maintainer:         isaac.lopez@upr.edu
+category:           Web
+build-type:         Simple
+
+executable mini-servant
+    ghc-options:      -Wall
+    import:           warnings
+    main-is:          Main.hs
+    -- other-modules:
+    default-extensions:
+        DataKinds
+        PolyKinds
+        TypeOperators
+        TypeFamilies
+        FlexibleInstances
+        ScopedTypeVariables
+        InstanceSigs
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   src
+    default-language: Haskell2010
